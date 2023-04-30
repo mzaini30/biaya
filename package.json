@@ -1,9 +1,12 @@
 {
   "name": "biaya",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "",
   "type": "module",
   "main": "index.js",
+  "bin": {
+  	"biaya": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/mzaini30/biaya/issues"
   },
-  "homepage": "https://github.com/mzaini30/biaya#readme"
+  "homepage": "https://github.com/mzaini30/biaya#readme",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
 }

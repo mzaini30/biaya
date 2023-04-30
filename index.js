@@ -1,4 +1,4 @@
-#!/usr/bin/node
+#!/usr/bin/env node
 
 import yaml_to_json from "js-yaml";
 import { readFileSync } from "fs";

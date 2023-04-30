@@ -6,7 +6,8 @@ import { readFileSync } from "fs";
 const biaya_harian = 150000;
 
 let data = process.argv[2];
-let ambil_data = readFileSync(data).toString();
+let ambil_data = readFileSync(data).toString();ambil_data = ambil_data.replace(/\r/g, "")
+
 let jadi_json = yaml_to_json.load(ambil_data);
 
 let total = 0;
